@@ -20,12 +20,23 @@ These are a list of notes from my concerted effort to
 
 ### Setup git in a local directory
 - git init
+<<<<<<< HEAD
+=======
+- git checkout [branch name] - puts you on the newly created branch
+>>>>>>> gh-pages
 
 ### A Typical (not atypical) workflow
 - git add .
 - git commit
 - git push (origin master)
 
+<<<<<<< HEAD
+=======
+### Git Pages Notes
+- use gh-pages branch to tell git to treat it like a page
+- git checkout --orphan gh-pages
+
+>>>>>>> gh-pages
 
 ## Dash
 - The Alfred workflows for git are all available by reference
